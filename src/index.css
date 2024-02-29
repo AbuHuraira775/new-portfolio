@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1.1rem;
+  font-family: 'Cambria';
+  transition: 1 ease all;
+  scroll-behavior: smooth;
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+}
+.home-text p,.mern-right p,.mern-right h2,.service img,.service h2,.service p{
+  margin-bottom: 1vw;
+}
+.skill,.resume-box{
+  border: 2px solid black;
+}
+.nav-admin button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 5vw;
+}
+
+.home-buttons button,.projects-btn button{
+  border: 2px solid black;
+  
+}
+.mern-right a{
+  border: 2px solid black;
+}
+.service{
+  border: 2px solid black;
+}
+.service h2{
+  border-bottom: 3px solid black;
+  padding-bottom: 1vw;
+  width: max-content;
+}
+.portfolio-nav li{
+  font-size: 1.6vw;
+}
+.portfolio-nav li:hover{
+  cursor: pointer;
+}
+.single-project{
+  border: 2px solid black;
+  /* width: max-content; */
+}
+.contact-box{
+  border: 2px solid black;
+}
+.contact-option{
+  border-bottom: 2px solid transparent;
+}
+.contact-option:hover{
+  border-bottom: 2px solid black;
+}
+.footer-links{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+}
+#portfolio li{
+  margin-left: 5vw;
+}
+.icons p{
+  margin-top: 2vw;
+  font-size: 3vw;
+  padding-right: 2vw;
+}
+.mern-right h2{
+  border-bottom: 2px solid black;
+  width: max-content;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+}
+@media(max-width: 640px){
+  .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .nav-links,.nav-switches{
+    display: none;
+  }
+  .home{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: pink; */
+  }
+  .home-right{
+    /* background-color: green; */
+    width: 80%;
+    margin: auto;
+  }
+  .home-right div{
+    margin-bottom: 8vw;
+  }
+  .home-right .home-buttons{
+    justify-content: space-evenly;
+  }
+  .home-buttons button{
+    margin-left: 3vw;
+  }
+  .home-left img{
+    width: 16rem;
+    margin-bottom: 3rem;
+  }
+  .resume,.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .resume-heading,.skill-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  .skill-details{
+    display: grid;
+    grid-template-columns: 1fr;
+    /* margin: 1vw 3rem; */
+    width: 100%;
+    margin: auto;
+  }
+  .resume-right{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+  .about-mern {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 3rem;
+    /* background-color: red; */
+  }
+  .mern-right h2{
+    border-bottom: 2px solid black;
+    padding-bottom: 2vw;
+    width: max-content;
+    margin-bottom: 3rem;
+  }
+  .services-details{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .portfolio-nav ul{
+    display: flex;
+  }
+  .portfolio-nav li{
+    font-size: 1rem;
+  }
+  .portfolio-projects{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 1rem 4rem;
+  }
+  .footer-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  ;
+  }
+}
+@media(max-width:468px){
+  .navbar{
+  }
+  .skill-about{
+    grid-template-columns: 1fr;
+  }
+  .single-skill{
+    margin-bottom: -1vw;
+  }
+  .mern-right h2{
+    font-size: 1.5rem;
+  }
+  .portfolio-projects{
+    padding: 0;
+    margin: 0;
+  }
+  .single-project{
+    padding: 1rem;
+    width: 100%;
+  }
+  .contact-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-box .email-contact-box{
+    margin-right: 0;
+  }
+  .footer-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .home .home-buttons{
+    width: 100%;
+  }
+  .home-right {
+    width: max-content;
+  }
+  .home-buttons button{
+    width: 10rem;
+  }
+  .mobile-menu-links a{
+    margin-bottom: 1rem;
+    /* background-color: red; */
+  }
+  .mobile-menu-links a{
+    width: max-content;
+  }
+}

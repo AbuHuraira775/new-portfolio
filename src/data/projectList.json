@@ -1,0 +1,50 @@
+[
+    {
+        "id": "1",
+        "title": "Web development",
+        "description": "Frontend Development for the my US client",
+        "catagory": "personal",
+        "image": "https://api.slingacademy.com/public/sample-photos/1.jpeg",
+        "all" : "all"
+    },
+    {
+        "id": "2",
+        "title": "Web development",
+        "description": "Frontend Development for the my US client",
+        "catagory": "professional",
+        "image": "https://api.slingacademy.com/public/sample-photos/1.jpeg",
+        "all" : "all"
+    },
+    {
+        "id": "3",
+        "title": "Web development",
+        "description": "Frontend Development for the my US client",
+        "catagory": "professional",
+        "image": "https://api.slingacademy.com/public/sample-photos/1.jpeg",
+        "all" : "all"
+    },
+    {
+        "id": "4",
+        "title": "Web development",
+        "description": "Frontend Development for the my US client",
+        "catagory": "personal",
+        "image": "https://api.slingacademy.com/public/sample-photos/1.jpeg",
+        "all" : "all"
+    },
+    {
+        "id": "5",
+        "title": "Web development",
+        "description": "Frontend Development for the my US client",
+        "catagory": "personal",
+        "image": "https://api.slingacademy.com/public/sample-photos/1.jpeg",
+        "all" : "all"
+    },
+    {
+        "id": "6",
+        "title": "Web development",
+        "description": "Frontend Development for the my US client",
+        "catagory": "personal",
+        "image": "https://api.slingacademy.com/public/sample-photos/1.jpeg",
+        "all" : "all"
+    }
+]
